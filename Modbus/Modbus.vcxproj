@@ -80,10 +80,12 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\modbus_common.cpp" />
     <ClCompile Include="src\modbus_RTU.cpp" />
+	<ClCompile Include="src\modbus_TCP.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\modbus_common.h" />
     <ClInclude Include="inc\modbus_RTU.h" />
+    <ClInclude Include="inc\modbus_TCP.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
