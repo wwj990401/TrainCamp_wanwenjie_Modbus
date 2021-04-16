@@ -21,9 +21,15 @@
     <ClCompile Include="src\modbus_common.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\modbus_RTU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\modbus_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\modbus_RTU.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
