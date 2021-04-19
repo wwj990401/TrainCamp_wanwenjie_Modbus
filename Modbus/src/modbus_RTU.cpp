@@ -290,8 +290,8 @@ bool Setup_port()
 	COMMTIMEOUTS TimeOuts;
 	//设定读超时
 	TimeOuts.ReadIntervalTimeout = 40;         //读间隔超时
-	TimeOuts.ReadTotalTimeoutMultiplier = 5;   //读时间系数
-	TimeOuts.ReadTotalTimeoutConstant = 100;   //读时间常量
+	TimeOuts.ReadTotalTimeoutMultiplier = 3;   //读时间系数
+	TimeOuts.ReadTotalTimeoutConstant = 0;   //读时间常量
 	//设定写超时
 	TimeOuts.WriteTotalTimeoutMultiplier = 0;  //写时间系数
 	TimeOuts.WriteTotalTimeoutConstant = 0;    //写时间常量
